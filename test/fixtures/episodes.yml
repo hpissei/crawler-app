@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Show_id: 1
+  Episode_title,Episode_size: MyString
+  float: MyString
+
+two:
+  Show_id: 1
+  Episode_title,Episode_size: MyString
+  float: MyString

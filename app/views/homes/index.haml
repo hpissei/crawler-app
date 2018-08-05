@@ -1,0 +1,10 @@
+%h1 Homes#index
+%div.container-fluid
+  %form{method:"get",action:"fetch"}
+    %div.row.jumbotron
+      %div.col-md-offset-3  
+      %div.col-md-4
+        %label.label.label-primary
+          %input.form-control{placeholder:"Series",type:"text",name:"series"}
+      %div.col-md-3
+        %button.btn.btn-primary{type:"submit"} Crawl Episodes
