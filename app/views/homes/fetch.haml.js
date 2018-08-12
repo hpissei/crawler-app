@@ -1,6 +1,14 @@
 $(document).ready(function(){
-    setTimeout(function(){
-        $("div#list").append("dsdfsa");
-    },10000);
-    
+    $.ajax({
+        url:"https://en.wikipedia.org/wiki/High_School_DxD",
+        headers:{
+            "Access-Control-Allow-Origin":"*"
+        },
+        success:function(){
+            console.log("success");
+        },
+        error:function(){
+            console.log("error");
+        }
+    })
 })

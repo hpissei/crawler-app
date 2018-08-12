@@ -65,3 +65,4 @@ gem 'bootstrap', '~> 4.0'
 gem 'jquery-rails'
 
 gem 'haml'
+gem 'rack-cors', require: 'rack/cors'
